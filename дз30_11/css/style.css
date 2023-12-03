@@ -1,0 +1,137 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-v13-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+.profile {
+  width: 290px;
+  height: 280px;
+}
+.photo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: -60px;
+}
+.name {
+  text-align: center;
+  margin: 0px;
+  font-size: 14px;
+}
+
+.text {
+  text-align: center;
+  font-size: 14px;
+  width: 240px;
+  margin-left: 25px;
+}
+.profile::before {
+  display: block;
+  width: 335px;
+  height: 81px;
+  content: "Сделать по образцу";
+  text-align: center;
+  background-color: white;
+}
+.block_1,
+.block_2 {
+  width: 1440px;
+  height: 1094px;
+  background-color: #08263f;
+  margin-top: 70px;
+  padding: 0;
+}
+.block_1:first-child {
+  text-align: center;
+  font-family: Roboto;
+  color: #fed097;
+  padding-top: 100px;
+}
+.block_1:first-of-type h1 {
+  font-family: Roboto;
+  font-size: 36px;
+  color: white;
+  padding: 10px;
+}
+.img {
+  width: 1407px;
+  height: 580px;
+  margin-left: 16px;
+  padding-top: 50px;
+}
+.learn_more {
+  width: 470px;
+  height: 279px;
+  padding-left: 251px;
+  padding-top: 205px;
+}
+.title {
+  font-family: "inter";
+  font-size: 42px;
+  color: #99efd0;
+}
+h1::after {
+  content: " traffic";
+  color: #f2994a;
+}
+.subtitle {
+  font-family: "inter";
+  font-size: 15px;
+  color: #8476aa;
+}
+.button {
+  width: 150px;
+  height: 48px;
+  background-color: #f2994a;
+  border-radius: 3px;
+  margin-top: 20px;
+  border-color: #f2994a;
+  text-align: center;
+  color: white;
+}
+.images {
+  position: relative;
+  width: 440px;
+  height: 400px;
+  margin-left: 780px;
+  margin-top: -300px;
+}
+.img_1 {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 250px;
+}
+.img_2 {
+  position: absolute;
+  margin-left: 100px;
+}
+.img_3 {
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 30px;
+}
+.img_4 {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 300px;
+}
